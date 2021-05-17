@@ -6,6 +6,8 @@
 - tqdm==4.43.0
 - opencv-python==4.2.0.32
 
+#### 设置config.cfg文件来修改数据集路径
+
 ### 训练单人姿态估计网络
 ~~~Python
 from train import SPENetTrain
