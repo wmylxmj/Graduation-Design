@@ -1,8 +1,10 @@
 # Graduation-Design
 毕业设计
-#### environment
+#### 依赖库
 - tensorflow-gpu==1.12.0
 - keras==2.2.4
+- tqdm==4.43.0
+- opencv-python==4.2.0.32
 
 ### 训练单人姿态估计网络
 ~~~Python
