@@ -25,5 +25,5 @@ model = SPENet(layers=8)
 model.load_weights("weights/SPENet-8-17.h5")
 
 p = SPENetPredict(model)
-p.predict_skeleton(“test.jpg”, save_name="test")
+p.predict_skeleton(“test.jpg”, save_folder="outputs", save_name="test")
 ~~~
