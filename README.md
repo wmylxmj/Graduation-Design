@@ -11,12 +11,14 @@
 ### 训练单人姿态估计网络
 ~~~Python
 from train import SPENetTrain
+
 spe = SPENetTrain(layers=8, joints=17, lr=1e-4, pretrained_weights=None)
 ~~~
 
 ### 导入预训练权重进行训练
 ~~~Python
 from train import SPENetTrain
+
 spe = SPENetTrain(layers=8, joints=17, lr=1e-4, pretrained_weights=“weights/SPENet-8-17.h5”)
 ~~~
 
