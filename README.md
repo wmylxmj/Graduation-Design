@@ -55,5 +55,6 @@ t.prepare(model)
 from utils import TCPDataLoader
 
 t = TCPDataLoader()
+# visualize输入：json路径 对应视频帧文件夹 第几帧
 t.visualize()
 ~~~
