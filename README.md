@@ -13,6 +13,7 @@
 from train import SPENetTrain
 
 spe = SPENetTrain(layers=8, joints=17, lr=1e-4, pretrained_weights=None)
+spe.train(batch_size=2)
 ~~~
 
 ### 导入预训练权重进行训练
@@ -20,6 +21,7 @@ spe = SPENetTrain(layers=8, joints=17, lr=1e-4, pretrained_weights=None)
 from train import SPENetTrain
 
 spe = SPENetTrain(layers=8, joints=17, lr=1e-4, pretrained_weights=“weights/SPENet-8-17.h5”)
+spe.train(batch_size=2)
 ~~~
 
 ### 单人姿态估计网络预测骨架
