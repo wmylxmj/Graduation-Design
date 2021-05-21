@@ -70,3 +70,7 @@ t = TCPNetTrain(lr=2e-5)
 t.train(batch_size=64, pretrained_weights=None)
 ~~~
 
+### 摄像头预测
+
+#### 运行camera.py
+
