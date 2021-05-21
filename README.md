@@ -67,6 +67,6 @@ t.visualize()
 from train import TCPNetTrain
 
 t = TCPNetTrain(lr=2e-5)
-t.train(batch_size=64)
+t.train(batch_size=64, pretrained_weights=None)
 ~~~
 
