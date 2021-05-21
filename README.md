@@ -60,3 +60,13 @@ t = TCPDataLoader()
 # visualize输入：json路径 对应视频帧文件夹 第几帧
 t.visualize()
 ~~~
+
+### 训练热舒适姿态网络
+
+~~~Python
+from train import TCPNetTrain
+
+t = TCPNetTrain()
+t.train(lr=2e-5)
+~~~
+
