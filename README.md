@@ -49,6 +49,8 @@ model.load_weights("weights/SPENet-8-17.h5")
 
 t = TCPDataLoader()
 t.prepare(model)
+
+t.split_train_val()
 ~~~
 
 ### 可视化json文件的输出结果
