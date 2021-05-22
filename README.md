@@ -68,8 +68,8 @@ t.visualize()
 ~~~Python
 from train import TCPNetTrain
 
-t = TCPNetTrain(lr=2e-5)
-t.train(batch_size=64, pretrained_weights=None)
+t = TCPNetTrain(lr=2e-5, pretrained_weights=None)
+t.train(batch_size=64)
 ~~~
 
 ### 摄像头预测
