@@ -1,5 +1,5 @@
 # Graduation-Design
-毕业设计
+毕业设计 基于ResNet的人体热舒适姿态检测研究
 #### 依赖库
 - tensorflow-gpu==1.12.0
 - keras==2.2.4
