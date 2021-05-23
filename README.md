@@ -48,9 +48,8 @@ model = SPENet(layers=8)
 model.load_weights("weights/SPENet-8-17.h5")
 
 t = TCPDataLoader()
+# 要准备训练集和验证集
 t.prepare(model)
-
-t.split_train_val()
 ~~~
 
 ### 可视化json文件的输出结果
@@ -68,7 +67,7 @@ t.visualize()
 ~~~Python
 from train import TCPNetTrain
 
-t = TCPNetTrain(lr=2e-5, pretrained_weights=None)
+t = TCPNetTrain(units=256, lr=2e-5, pretrained_weights=None)
 t.train(batch_size=64)
 ~~~
 
