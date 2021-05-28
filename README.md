@@ -34,7 +34,7 @@ model = SPENet(layers=8)
 model.load_weights("weights/SPENet-8-17.h5")
 
 p = SPENetPredict(model)
-p.predict_skeleton(“test.jpg”, save_folder="outputs", save_name="test")
+p.predict_skeleton("test.jpg", save_folder="outputs", save_name="test")
 ~~~
 
 ### 从视频帧中提取姿态向量并保存为json文件
